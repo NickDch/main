@@ -1,0 +1,54 @@
+package homework;
+import java.math.BigInteger;
+import java.math.BigDecimal;
+
+public class homework5 {
+	public static void main(String[] args) {
+		System.out.println("\tExercise 1 - Distance");
+	
+
+		
+		
+		int y = 33;
+		int x = 31;
+	
+		
+		
+		System.out.println( "The distance is "+Math.sqrt(Math.pow(x,2)+(Math.pow(y,2))));
+	
+
+		
+		
+		
+		System.out.println("\t\nExercise 2 - SpringSeason");
+		
+		
+		
+		
+		
+		
+		int month = 4;
+		int day = 10;
+	
+		
+		String summer = ( (month ==3 && day >=20  ) || (month >3 && month <6   ) || (month ==6 && day <=20) ) ? "Summer" : "Winter" ;
+	System.out.println("The seson is "+summer);
+	
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
